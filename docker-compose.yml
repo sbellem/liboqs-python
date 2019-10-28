@@ -1,0 +1,10 @@
+version: '3'
+
+services:
+  liboqs:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - .:/usr/src/liboqs-python
+
