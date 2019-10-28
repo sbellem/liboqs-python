@@ -3,3 +3,4 @@ __pycache__
 liboqs.so
 *.pyc
 test-results
+*.egg-info/
